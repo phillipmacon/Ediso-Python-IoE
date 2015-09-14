@@ -1,7 +1,7 @@
 #From the library, import the main class
 #Note, it would need to be in the same folder or in the python PATH
 from I2CLCDDisplay import I2CLCDDisplay
-#From the library, import the main class
+#Import time from the core python library
 import time
 
 #Create an instance of I2CLCDDisplay and call it LCDDisplay
