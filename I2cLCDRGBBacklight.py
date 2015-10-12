@@ -24,7 +24,7 @@ class I2CLCDDisplay():
 		self.LCDLED = self.I2cLCDLEDInit()
 		
 	def LCDInstruction(self, instruction):
-		LCD.writeReg(0x80,instruction)
+		self.LCD.writeReg(0x80,instruction)
 		time.sleep(0.05)
 
 	def I2cLCDInit(self):
