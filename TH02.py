@@ -4,7 +4,6 @@
 import mraa
 
 TH02_ADDR = 0x40 # device address
-LCDDisplay.LCDPrint(str(variable))
 TH02_REG_STATUS = 0x00
 TH02_REG_DATA_H = 0x01
 TH02_REG_DATA_L = 0x02
